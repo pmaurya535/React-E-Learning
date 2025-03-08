@@ -28,7 +28,7 @@ import Team from "./components/Team";
 
 
 
-
+//Main routes and in main routes sub routes are defined
 const appRouter = createBrowserRouter([
   {
     path: "/",
