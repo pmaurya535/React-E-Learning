@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { Provider } from "react-redux";
 import { appStore } from "./app/store";
-import { Toaster } from "@/components/ui/sonner"; // If alias is configured
+import { Toaster } from "react-router-dom";
 import { useLoadUserQuery } from "./features/api/authApi";
 import LoadingSpinner from "./components/LoadingSpinner";
 
